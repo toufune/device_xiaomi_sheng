@@ -35,6 +35,10 @@ PRODUCT_PACKAGES += \
     SettingsOverlayShengGL \
     SystemUIOverlaySheng
 
+# Peripheral Manager
+PRODUCT_PACKAGES += \
+    XiaomiPeripheralManager
+
 # Recovery
 $(call soong_config_set_bool,recovery,target_recovery_uses_qti_drm,true)
 
