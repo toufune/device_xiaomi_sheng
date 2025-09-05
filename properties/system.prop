@@ -1,2 +1,5 @@
+# QTI
+ro.vendor.qti.va_aosp.support=1
+
 # Xiaomi
 ro.product.mod_device=sheng_global
