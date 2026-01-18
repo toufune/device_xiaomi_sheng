@@ -5,7 +5,7 @@
 //
 
 runtime_resource_overlay {
-    name: "SettingsOverlayVermeer",
+    name: "SystemUIOverlaySheng",
     sdk_version: "current",
     vendor: true,
 }

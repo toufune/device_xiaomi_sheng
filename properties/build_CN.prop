@@ -1,8 +1,8 @@
 # Chinese model
-bluetooth.device.default_name=Redmi K70
-vendor.usb.product_string=Redmi K70
-ro.product.odm.brand=Redmi
-ro.product.odm.device=vermeer
+bluetooth.device.default_name=Xiaomi Pad 6S Pro 12.4
+vendor.usb.product_string=Xiaomi Pad 6S Pro 12.4
+ro.product.odm.brand=Xiaomi
+ro.product.odm.device=sheng
 ro.product.odm.manufacturer=Xiaomi
-ro.product.odm.model=23113RKC6C
-ro.product.odm.name=vermeer
+ro.product.odm.model=24018RPACC
+ro.product.odm.name=sheng

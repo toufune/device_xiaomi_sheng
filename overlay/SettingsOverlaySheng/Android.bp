@@ -5,6 +5,7 @@
 //
 
 runtime_resource_overlay {
-    name: "SettingsProviderResVermeerPOCO",
-    device_specific: true,
+    name: "SettingsOverlaySheng",
+    sdk_version: "current",
+    vendor: true,
 }

@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "SettingsOverlayVermeerRedmi",
+    name: "SettingsOverlayShengCN",
     device_specific: true,
 }

@@ -8,9 +8,9 @@
 include device/xiaomi/sm8550-common/BoardConfigCommon.mk
 
 # Inherit from the proprietary version
-include vendor/xiaomi/vermeer/BoardConfigVendor.mk
+include vendor/xiaomi/sheng/BoardConfigVendor.mk
 
-DEVICE_PATH := device/xiaomi/vermeer
+DEVICE_PATH := device/xiaomi/sheng
 
 # Display
 TARGET_SCREEN_DENSITY := 530
@@ -31,7 +31,7 @@ BOOT_KERNEL_MODULES += \
     goodix_core.ko
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := vermeer
+TARGET_OTA_ASSERT_DEVICE := sheng
 
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/properties/odm.prop

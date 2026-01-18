@@ -8,7 +8,7 @@
 $(call inherit-product, device/xiaomi/sm8550-common/common.mk)
 
 # Inherit from the proprietary version
-$(call inherit-product, vendor/xiaomi/vermeer/vermeer-vendor.mk)
+$(call inherit-product, vendor/xiaomi/sheng/sheng-vendor.mk)
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -24,16 +24,12 @@ PRODUCT_PACKAGES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    ApertureResVermeer \
-    FrameworkResOverlayVermeer \
-    SettingsOverlayVermeer \
-    SettingsOverlayVermeerPOCO \
-    SettingsOverlayVermeerRedmi \
-    SettingsProviderResVermeerPOCO \
-    SettingsProviderResVermeerRedmi \
-    SystemUIOverlayVermeer \
-    WifiResVermeerPOCO \
-    WifiResVermeerRedmi
+    ApertureResSheng \
+    FrameworkResOverlaySheng \
+    SettingsOverlaySheng \
+    SettingsOverlayShengCN \
+    SettingsOverlayShengGL \
+    SystemUIOverlaySheng
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

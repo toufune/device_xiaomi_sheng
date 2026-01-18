@@ -1,8 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.lineageos.settingsoverlay.vermeer">
+    package="org.lineageos.settingsoverlay.sheng">
     <application android:hasCode="false" />
     <overlay android:isStatic="true"
              android:priority="1"
              android:targetPackage="com.android.settings"
-             android:targetName="VermeerSettingsOverlay" />
+             android:targetName="ShengSettingsOverlay" />
 </manifest>
