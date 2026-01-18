@@ -13,7 +13,7 @@ include vendor/xiaomi/sheng/BoardConfigVendor.mk
 DEVICE_PATH := device/xiaomi/sheng
 
 # Display
-TARGET_SCREEN_DENSITY := 530
+TARGET_SCREEN_DENSITY := 400
 
 # Kernel
 BOARD_VENDOR_KERNEL_MODULES_LOAD += \
