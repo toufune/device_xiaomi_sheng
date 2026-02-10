@@ -16,19 +16,9 @@ DEVICE_PATH := device/xiaomi/sheng
 TARGET_SCREEN_DENSITY := 400
 
 # Kernel
-BOARD_VENDOR_KERNEL_MODULES_LOAD += \
-    aw882xx_dlkm.ko \
-    goodix_fod.ko \
-    goodix_core.ko \
-    wl2868c.ko \
-    wl2866d.ko \
-    xiaomi_touch.ko
-
-BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD += \
-    goodix_core.ko
-
-BOOT_KERNEL_MODULES += \
-    goodix_core.ko
+# Prebuilts
+TARGET_FORCE_PREBUILT_KERNEL := true
+include device/xiaomi/sheng-prebuilt/BoardConfigPrebuilt.mk
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := sheng
