@@ -19,6 +19,7 @@ TARGET_SCREEN_DENSITY := 400
 # Prebuilts
 TARGET_FORCE_PREBUILT_KERNEL := true
 include device/xiaomi/sheng-prebuilt/BoardConfigPrebuilt.mk
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := sheng
