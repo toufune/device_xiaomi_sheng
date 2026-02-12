@@ -930,10 +930,16 @@ odm/etc/disp0/mdss_dsi_n81a_36_02_0a_duledsi_dsc_vid/miLut_9.txt
 odm/etc/disp0/mdss_dsi_n81a_36_02_0a_duledsi_dsc_vid/mi_gc_0.txt
 odm/etc/disp0/mdss_dsi_n81a_36_02_0a_duledsi_dsc_vid/mi_gc_1.txt
 odm/etc/disp0/mdss_dsi_n81a_36_02_0a_duledsi_dsc_vid/mi_gc_2.txt
+vendor/etc/display/LUT.txt
 vendor/etc/df_default.xml
 
 # Fingerprint
 odm/lib64/hw/fingerprint.fpc.so:odm/lib64/hw/fingerprint.fpc.default.so;FIX_SONAME
+
+# Keyboard firmware
+odm/etc/Keyboard_Upgrade_0x01.bin
+odm/etc/Keyboard_Upgrade_0x01.bin
+odm/firmware/MCU_Upgrade.bin
 
 # QVR configs
 vendor/etc/qvr/cfg/519/0/65536/mtpkailua.txt
@@ -1052,6 +1058,7 @@ vendor/etc/thermal-map.conf
 vendor/etc/thermald-devices.conf
 
 # Touch firmware
+odm/etc/TouchPad_Upgrade_0x03.bin
 odm/firmware/n81a_nova_thp_config.ini
 odm/firmware/novatek_nt36532_n81a_fw_csot.bin
 odm/firmware/novatek_nt36532_n81a_mp_csot.bin
