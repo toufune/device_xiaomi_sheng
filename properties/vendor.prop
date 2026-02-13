@@ -1,2 +1,5 @@
+# Display Orientation
+ro.surface_flinger.primary_display_orientation=ORIENTATION_270
+
 # System properties
 ro.product.property_source_order=odm,vendor,product,system_ext,system
