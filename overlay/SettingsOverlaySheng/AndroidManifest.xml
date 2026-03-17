@@ -2,7 +2,7 @@
     package="org.lineageos.settingsoverlay.sheng">
     <application android:hasCode="false" />
     <overlay android:isStatic="true"
-             android:priority="1"
+             android:priority="100"
              android:targetPackage="com.android.settings"
              android:targetName="ShengSettingsOverlay" />
 </manifest>
