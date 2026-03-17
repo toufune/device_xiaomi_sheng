@@ -1,5 +1,10 @@
 # Display Orientation
 ro.surface_flinger.primary_display_orientation=ORIENTATION_270
+ro.bootanim.set_orientation_4630947038039379843=ORIENTATION_90
+
+# Fingerprint
+persist.vendor.fingerprint.sensor_location=0|965|115|local:44630947038039379843
+persist.vendor.fingerprint.type=side
 
 # System properties
 ro.product.property_source_order=odm,vendor,product,system_ext,system

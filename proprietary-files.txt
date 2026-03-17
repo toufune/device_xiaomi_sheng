@@ -934,7 +934,14 @@ vendor/etc/display/LUT.txt
 vendor/etc/df_default.xml
 
 # Fingerprint
+odm/etc/permissions/com.fingerprints.extension.xml
 odm/lib64/hw/fingerprint.fpc.so:odm/lib64/hw/fingerprint.fpc.default.so;FIX_SONAME
+odm/framework/com.fingerprints.extension.jar
+system/usr/idc/uinput-fpc.idc
+system/usr/keylayout/uinput-fpc.kl
+vendor/bin/hw/mfp-daemon
+vendor/etc/init/init.mfp-daemon.rc
+vendor/lib64/com.fingerprints.extension@3.0.so
 
 # Keyboard firmware
 odm/etc/Keyboard_Upgrade_0x01.bin
